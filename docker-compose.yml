@@ -1,0 +1,7 @@
+services:
+  app:
+    build: ./front
+    volumes:
+      - ./front:/front
+    ports:
+      - "3000:3000"
